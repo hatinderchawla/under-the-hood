@@ -7,7 +7,10 @@ Module 1 : Computer System
   1. [x86_64 Assembly programing part 2](https://youtu.be/aEgVVTWyCWM)
   1. [x86 System](https://youtu.be/ayl-y1Q91s4)
 
-Module 2 : Operating System
+Module 2 : [Operating System](https://youtu.be/N3EHwkk6atE)
+  1. [Linux Architecture](https://youtu.be/DPHEmJG-JSw)
+  1. [System Calls](https://youtu.be/JIxiK8cJeCs)
+  1. [Processes](https://youtu.be/8zqrHOq32t8)
 
 Module 3 : Scheduling
 
