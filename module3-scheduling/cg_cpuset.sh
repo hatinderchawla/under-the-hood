@@ -1,6 +1,5 @@
 CG_DIR=/sys/fs/cgroup
 
-# Now set cpu shares of 512
 echo "# Example 4 - With cpuset set"
 mkdir -p $CG_DIR/cpuset/cg1
 mkdir -p $CG_DIR/cpuacct/cg1
@@ -25,6 +24,8 @@ wait
 echo $$ > /sys/fs/cgroup/cpuset/cgroup.procs
 echo $$ > /sys/fs/cgroup/cpuacct/cgroup.procs
 
+echo "# cpu.stat file"
+cat $CG_DIR/cpu/cg1/cpu.stat
 echo "# cpuacct.stat file"
 cat $CG_DIR/cpu/cg1/cpuacct.stat
 echo "# cpuacct.usage file"
