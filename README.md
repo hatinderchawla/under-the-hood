@@ -12,7 +12,11 @@ Module 2 : [Operating System](https://youtu.be/N3EHwkk6atE)
   1. [System Calls](https://youtu.be/JIxiK8cJeCs)
   1. [Processes](https://youtu.be/8zqrHOq32t8)
 
-Module 3 : Scheduling
+Module 3 : [Scheduling]()
+  1. [Linux Scheduling]()
+  1. [Normal Process Scheduling]()
+  1. [Group Scheduling]()
+  1. [Sleeping Processes]()
 
 Module 4 : Memory
 
