@@ -10,7 +10,7 @@ cat $CG_DIR/cpu/cg1/cpu.cfs_quota_us
 echo $$ > $CG_DIR/cpu/cg1/cgroup.procs
 echo "# Execution Time Data"
 NUM_PARALLEL=${1:-4}
-for ((i=0; i<$NUM_PARALLEL; i++))
+for i in $(seq "$NUM_PARALLEL")
 do
   /usr/bin/time -f "%E real" ./loop &
 done

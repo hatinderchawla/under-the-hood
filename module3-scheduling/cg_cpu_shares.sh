@@ -14,7 +14,7 @@ cat $CG_DIR/cpu/cg2/cpu.shares
 echo "# Execution Time Data"
 # start 4 processes in cg1 and cg2 cgroups
 NUM_PARALLEL=${1:-4}
-for ((i=0; i<$NUM_PARALLEL; i++))
+for i in $(seq "$NUM_PARALLEL")
 do
   /usr/bin/time -f "%E real cg1" ./loop &
   echo $! > $CG_DIR/cpu/cg1/cgroup.procs
