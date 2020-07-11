@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     char *dest;
     char hello_world[] = "Hello World from memory mapped anonymous\n";
 
-    addr = (char *) mmap(NULL, mmap_size, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0);
+    addr = (char *) mmap(NULL, mmap_size, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0);
     if (addr == MAP_FAILED)
     {
       err(EXIT_FAILURE,"mmap");
