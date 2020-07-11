@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[])
 {
-    const int mmap_size = 4096;
+    const int mmap_size = 4096*10;
     char *addr;
     char *dest;
     char hello_world[] = "Hello World from memory mapped anonymous\n";
@@ -22,6 +22,8 @@ int main(int argc, char *argv[])
     printf("Memory mapped address %lx\n", addr);
     strcpy(addr, hello_world);
     printf("%s", addr);
+
+    sleep(10);
     munmap(addr, mmap_size);
 
     exit(EXIT_SUCCESS);

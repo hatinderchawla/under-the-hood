@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
     strcpy(addr, hello_world);
     printf("%s", addr);
 
+    sleep(10);
     munmap(addr, len);
 
     exit(EXIT_SUCCESS);

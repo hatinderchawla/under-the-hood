@@ -33,6 +33,8 @@ int main(int argc, char *argv[])
 
     printf("Memory mapped address %lx\n", addr);
     printf("%s", addr);
+
+    sleep(10);
     munmap(addr, 4096);
 
     exit(EXIT_SUCCESS);

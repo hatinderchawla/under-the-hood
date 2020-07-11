@@ -7,8 +7,6 @@ int main()
     int large_malloc_size = 1024*33*sizeof(int);
     int small_malloc_size = 10*sizeof(int);
 
-    int i = 0;
-
     int *ptr_small;
     int *ptr_large;
 
