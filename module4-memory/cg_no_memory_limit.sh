@@ -19,4 +19,7 @@ cat $CG_DIR/memory/cg1/memory.usage_in_bytes
 echo "# memory.max_usage_in_bytes" 
 cat $CG_DIR/memory/cg1/memory.max_usage_in_bytes
 
+echo "# memory.stat" 
+cat $CG_DIR/memory/cg1/memory.stat
+
 rmdir $CG_DIR/memory/cg1
