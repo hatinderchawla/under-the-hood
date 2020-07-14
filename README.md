@@ -19,8 +19,8 @@ Module 3 : Scheduling
   1. [Sleeping Processes](https://youtu.be/Oe6mw8zpOOU)
 
 Module 4 : Memory
-  1. [CPU Memory Management]()
-  1. [Process Memory]()
+  1. [CPU Memory Management](https://youtu.be/mmqSrwaIs2s)
+  1. [Process Memory](https://youtu.be/XObnyWF1DB4)
   1. [Process New Memory Allocation]()
   1. [Kernel Memory Optization]()
   1. [Memory Control Grouos]()
