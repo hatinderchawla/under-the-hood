@@ -22,8 +22,8 @@ Module 4 : Memory
   1. [CPU Memory Management](https://youtu.be/zcI7hslg3r8)
   1. [Process Memory](https://youtu.be/XObnyWF1DB4)
   1. [Process New Memory Allocation](https://youtu.be/Z3YmURZ8FMU)
-  1. [Kernel Memory Optimization]()
-  1. [Memory Control Groups]()
+  1. [Kernel Memory Optimization](https://youtu.be/aIeCqAsy-xs)
+  1. [Memory Control Groups](https://youtu.be/Rak8DORVmI8)
   
 Module 5: I/O
 
