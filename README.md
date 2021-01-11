@@ -26,6 +26,9 @@ Module 4 : Memory
   1. [Memory Control Groups](https://youtu.be/Rak8DORVmI8)
   
 Module 5: I/O
+  1. [Storage Media - Hard Disk Drives](https://youtu.be/E-0s1tVgK9E)
+  1. [Storage Media - Solid State Drives](https://youtu.be/gk-KeglDnDI)
+  1. [Storage Interconnection](https://youtu.be/QmUyOeuxMiY)
 
 Module 6 : Networking
 
